@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Architecture decisions
+
+- Keep the portfolio as a single static-prerendered page with relative asset URLs and a configurable router base path, so the same output works on GitHub Pages project sites.
